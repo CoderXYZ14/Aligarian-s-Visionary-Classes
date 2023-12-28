@@ -1,25 +1,53 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.css" integrity="sha512-tx5+1LWHez1QiaXlAyDwzdBTfDjX07GMapQoFTS74wkcPMsI3So0KYmFe6EHZjI8+eSG0ljBlAQc3PQ5BTaZtQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat:wght@300;400;500;600;700&family=Poppins&family=Raleway:wght@700&display=swap"
+      rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Libre+Baskerville&family=Montserrat:wght@300;400;500;600;700&family=Poppins&family=Raleway:ital,wght@0,700;1,100&display=swap"
+      rel="stylesheet">
    
     <title>ALIGARIAN'S VISIONARY CLASSES</title>
   </head>
   <body>
-    <nav id="scroll">
+    
+    <nav id="scroll" >
       <div class="right">
-        <h1>Aligarian's Visionary Classes</h1></div>
+        <h1>Aligarian's Visionary Classes</h1><div class="box1"></div></div>
       <div class="left">
         <ul>
           <li><a href="#">HOME</a></li>
           <li><a href="#about">ABOUT</a></li>
-          <li><a href="#">CONTACT US</a></li>
-          <li><a href="Images/course.jpg">COURSES</a></li>
-          <li><a href="#">ADDRESS</a></li>
+          <li><a href="#links">CONTACT US</a></li>
+          <li onclick="openCourseTemplate()"><a href="">COURSES</a></li>
+          <li><a href="#">STUDENT SECTION</a></li>
+          <li id="baar"><a href="#"><img src="Images/baar.png" alt="" srcset=""></a></li>
+
         </ul>
       </div>
+      <!-- responsive -->
+<!-- <div id="responsive">
+  <ul>
+    <li><a href="#">HOME</a></li>
+    <li><a href="#about">ABOUT</a></li>
+    <li><a href="#links">CONTACT US</a></li>
+    <li onclick="openCourseTemplate()"><a href="">COURSES</a></li>
+    <li><a href="#">STUDENT SECTION</a></li>
+  </ul>
+</div> -->
+
     </nav>
 
     <div class="back">
@@ -42,56 +70,314 @@ Welcome to <span>Aligarian's Visionary Classes</span>, where education meets exc
       </div>
     </div>
     
-    <a id="courses"
-      style="
-        list-style: none;
-        margin-left: 45%;
-        font-size: 26px;
-        font-weight: bold;
-        margin-top: 40px;
-        font-family: sans-serif;
-        border-bottom: 5px solid orange;
-       
-      "
+    <a id="coursesH"
+      
     >
       OUR COURSES
     </a>
     <div class="courses">
-      <div class="c1">
-        <h2>10th BOARD EXAM CRASH COURSE</h2>
-        <div class="co2">Complete Preparation for 10th Board Exam in just X Month.
-          <br>
-          Let's Crack it!
-          <p>At Just <span> @999/.</span></p>
-        </div>
-        
-      </div>
+      <div class="courses1">
+      
       <div class="c1">
         <h2>6th <br> ENTRANCE</h2>
-        <div class="co1">Complete Preparation for 10th Board Exam in just X Month.
+        <div class="co1">Complete Preparation for 6th Entrance AMU.
           <br>
           Let's Crack it!
           <p>At Just <span> @1999/.</span></p></div>
        
       </div>
       <div class="c1">
-        <h2>11th <br>
-           ENTRANCE</h2>
-        <div class="co1">Complete Preparation for 10th Board Exam in just X Month.
+        <h2>6th-10th <br>
+           Regular Classes</h2>
+        <div class="co1">Regular Classes from Class 6th to 10th.
           <br>
-          Let's Crack it!
-          <p>At Just <span> @2999/.</span></p></div>
+          <p>At Just <span> @499/Month.</span></p></div>
        
       </div>
+      
+    </div>
+    <div class="courses2">
       <div class="c1">
         <h2>9th <br>ENTRANCE</h2>
-        <div class="co1">Complete Preparation for 10th Board Exam in just X Month.
+        <div class="co1">Complete Preparation for 9th Entrance AMU.
           <br>
           Let's Crack it!
           <p>At Just <span> @2499/.</span></p></div>
        
       </div>
+      <div class="c1">
+        <h2>10th BOARD EXAM CRASH COURSE</h2>
+        <div class="co2">Complete Preparation for 10th Board Exams.
+          <br>
+          Let's Top it!
+          <p>At Just <span> @999/.</span></p>
+        </div>
+        
+      </div>
+      <div class="c1">
+        <h2>11th <br>
+           ENTRANCE</h2>
+        <div class="co1">Complete Preparation for 11th Entrance AMU.
+          <br>
+          Let's Crack it!
+          <p>At Just <span> @2999/.</span></p></div>
+       
+      </div>
+
+    
+     
     </div>
+    </div>
+    <div class="features-container">
+      <div class="feature-container-text-text">
+          <div class="features-container-text">
+              <div class="feature-text">FEATURES</div>
+          </div>
+          <div class="features-container-text">
+              <div class="feature-unlock-text">
+                  Unlock Your Potential with Professional Coaching
+              </div>
+          </div>
+          <div class="features-container-text">
+              <div class="feature-discover-text">
+                  Discover the benefits of our coaching for school students
+              </div>
+          </div>
+      </div>
+  
+      
+      <div class="feature-container-cont">
+          <div class="feature-box1">
+              <svg viewBox="0 0 1024 1024" class="feature-card-icon">
+                  <path
+                    d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
+                  ></path>
+                </svg>
+                <div class="feature-box-text">
+                  <div class="text1">
+                      Personalized Coaching
+  
+                  </div>
+                  <div class="text2">
+                      Our Motive to Achieve Academic Excellence
+                  </div>
+                </div>
+          </div>
+          <div class="feature-box2">
+              <svg viewBox="0 0 1024 1024" class="feature-card-icon">
+                  <path
+                    d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
+                  ></path>
+                </svg>
+                <div class="feature-box-text">
+                  <div class="text1">
+                      Expert Coaches
+  
+                  </div>
+                  <div class="text2">
+                      Mtech (AMU) Well Qualified, Experienced and Dedicated Faculty.
+                  </div>
+                </div>
+          </div>
+          <div class="feature-box3">
+              <svg viewBox="0 0 1024 1024" class="feature-card-icon">
+                  <path
+                    d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
+                  ></path>
+                </svg>
+                <div class="feature-box-text">
+                  <div class="text1">
+                      Good Communication
+                  </div>
+                  <div class="text2">
+                      Best Guidance To Develop English Speaking and Communication Skills
+                  </div>
+                </div>
+          </div>
+          <div class="feature-box4">
+              <svg viewBox="0 0 1024 1024" class="feature-card-icon">
+                  <path
+                    d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
+                  ></path>
+                </svg>
+                <div class="feature-box-text">
+                  <div class="text1">
+                  Exam Oriented Preparation     
+                  </div>
+                  <div class="text2">
+                     Regular Assesment, Weekly Test Series, Dubt Clearing Sessions, Best Study Material, PYQs Practice Sessions
+                  </div>
+                </div>
+          </div>
+      </div>
+  </div>
+
+  
+    <div class="faculty">
+      <div class="fac">
+        <div class="faculty-name">FACULTY</div>
+      </div>
+      <div class="fac-text">
+        <div class="fac-text-text">Our Esteemed Faculty</div>
+      </div>
+      <div class="fac-des">
+        <div class="fac-des-text">Unlock your full potential with our faculty</div>
+      </div>
+      <div class="home-faculty">
+      
+        <div id="director">
+          <div>
+            <div class="image-container">
+              <img src="./Images/fac-1.jpg" alt="fac-1" class="card-image" />
+            </div>
+            <div class="desc">
+              <div class="namediv">
+                <div class="name">Shayan Khan</div>
+              </div>
+  
+              <div class="director-dir">
+                <p style="color: rgb(19, 7, 60);">DIRECTOR</p>
+              </div>
+              <div class="description">
+                <p>✔ Graduate in Engineering</p>
+                <p>✔A.M.U Aligarh</p>
+            
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="card">
+          <div class="image-container">
+            <img src="./Images/fac-2.jpg" alt="fac-2" class="card-image" />
+          </div>
+          <div class="desc">
+            <div class="namediv">
+              <div class="name">Nabeel Khan</div>
+            </div>
+            <div class="description">
+              <p>✔ M.Tech. A.M.U</p>
+              <p>✔ Gate Qualified </p>
+            </div>
+  
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="image-container">
+            <img src="./Images/fac-3.jpg" alt="fac-3" class="card-image" />
+          </div>
+          <div class="desc">
+            <div class="namediv">
+              <div class="name">Muhammad Anwar</div>
+            </div>
+            <div class="description">
+              <p>✔ M.Tech. A.M.U</p>
+              <p>✔ Gate Qualified</p>
+            </div>
+  
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="image-container">
+            <img src="./Images/fac-3.jpg" alt="fac-4" class="card-image" />
+          </div>
+          <div class="desc">
+            <div class="namediv">
+              <div class="name">Naim Khan</div>
+            </div>
+            <div class="description">
+              <p>✔ M.Tech, A.M.U</p>
+            </div>
+  
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="gallery">
+      <div class="gallery-container">
+      <div class="gallery-text">
+          <div class="gallery-text-text">
+              Discover the Journey
+          </div>
+      </div>
+      <div class="gallery-subtext">
+          <div class="gallery-subtext-text">
+              Explore the world of professional coaching for school students
+          </div>
+      </div>
+      <div class="gallery-image">
+          <div class="gal-image"><img src="./Images/img1.jpg" alt="Img1"></div>
+          <div class="gal-image"><img src="./Images/img2.jpg" alt="Img2"></div>
+          <div class="gal-image"><img src="./Images/img3.jpg" alt="Img3"></div>
+          <div class="gal-image"><img src="./Images/img4.jpg" alt="Img4"></div>
+      </div>
+  </div>
+  </div>
+  
+    <div class="home-banner">
+      <div class="home-banner1">
+        <h1 class="home-banner-heading heading2">
+          Personalized Coaching for School Students
+        </h1>
+        <span class="home-banner-sub-heading">
+          Discover the benefits of professional coaching tailored to your
+          needs.
+        </span>
+        <button class="home-banner-button button" onclick="openNewTab()">Learn More</button>
+      </div>
+    </div>
+    <div class="faq">
+      <div class="home-faq-1">
+          <div class="hame-faq-container">
+              <div class="faq-1">FAQ</div>
+              <div class="faq-2">Common Questions</div>
+              <div class="faq-3">Here are some of the most common questions that we get.</div>
+          </div>
+          <div class="home-faq-questions">
+              <div class="faq-question"> What courses do you offer?
+              </div>
+              <div class="faq-answer"> We offer comprehensive coaching for grades 6th, 9th, and 11th, covering various subjects along with specialized preparation for the AMU entrance exam. Our curriculum is designed to ensure a holistic learning experience.</div>
+              <div class="faq-question">Who are your instructors?</div>
+              <div class="faq-answer">Our instructors are highly qualified professionals with extensive experience in teaching. They are experts in their respective fields and are dedicated to providing quality education and guidance to our students.</div>
+              <div class="faq-question">How do I enroll my child in your coaching classes?</div>
+              <div class="faq-answer">Enrolling in our classes is easy! You can visit our website and follow the admission procedure outlined in the "Admissions" section. Alternatively, you can visit our center during office hours for in-person assistance.</div>
+              <div class="faq-question">Do you provide study materials for the AMU entrance exam?</div>
+              <div class="faq-answer">Yes, we offer comprehensive study materials, including mock tests, past papers, and specialized content tailored for the AMU entrance exam. Our aim is to equip students with the necessary resources to excel in the exam.</div>
+              <div class="faq-question">How do you track students' progress?</div>
+              <div class="faq-answer">We have regular assessments, periodic tests, and feedback mechanisms in place to monitor students' progress. This helps us identify areas needing improvement and provide necessary support to ensure overall development.</div> </div>
+      </div>
+      </div>
+    
+    
+    <div class="home-footer">
+      <div class="box1"></div>
+      <h1>Aligarian's Visionary Classes</h1>
+      <div class="li"><ul>
+        <li><a  onclick="scrollToTop()">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#links">CONTACT US</a></li>
+        <li><a href="#courses">COURSES</a></li>
+        <li><a href="">STUDENT SECTION</a></li>
+      </ul></div>
+      <div class="last_bottom">
+        <div class="loc">
+          <img src="Images/loc_image.jpg" alt="" srcset="" onclick="Go_on_Map()"><br>
+          Second Floor,Modern Ideal Public School ,Bhamola Building, Aligarh,<br>Uttar Pradesh, India
+          
+        </div>
+        <button class="btn1" onclick="scrollToTop()">BACK to HOME</button>
+        <div id="links">
+          <div class="img1" onclick="openLink()"><img src="Images/insta_image.jpg" alt="" srcset="" ></div>
+          <!-- <div class="img2"><img src="Images/twitter_image.png" alt="" srcset=""></div> -->
+          <div class="img3" onclick="openEmail()"><img src="Images/Email_image.jpeg" alt="" srcset="">
+          <br>
+        </div>
+        </div>
+      </div>
+      <div class="copyright"> © 2023 Aligarian's Visionary Classes <br> All rights reserved</div>
     
   </body>
   <script src="index.js"></script>
