@@ -48,12 +48,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 function openNewTab() {
-  var imageUrl = "./Images/abc.jpeg";
+  var imageUrl = "./Images/abc.jpg";
   window.open(imageUrl, "_blank");
 }
 
 function openNewTab2() {
-  var imageUrl2 = "./Images/abc.jpeg";
+  var imageUrl2 = "./Images/abc.jpg";
   window.open(imageUrl2, "_blank");
 }
 function Go_on_Map() {
@@ -84,3 +84,13 @@ document.addEventListener("DOMContentLoaded", function () {
       });
   });
 });
+
+function openNav() {
+  document.getElementById("mySidenav").style.width = "210px";
+  document.getElementById("main").style.marginLeft = "210px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+}

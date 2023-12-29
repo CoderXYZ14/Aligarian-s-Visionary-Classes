@@ -30,11 +30,11 @@
         <h1>Aligarian's Visionary Classes</h1><div class="box1"></div></div>
       <div class="left">
         <ul>
-          <li><a href="#">HOME</a></li>
+          <li><a href="#back">HOME</a></li>
           <li><a href="#about">ABOUT</a></li>
           <li><a href="#links">CONTACT US</a></li>
           <li onclick="openCourseTemplate()"><a href="">COURSES</a></li>
-          <li><a href="#">STUDENT SECTION</a></li>
+          <li><a href="https://forms.gle/GcE7zSRpDERyEWj66">REGISTRATION</a></li>
           <li id="baar"><a href="#"><img src="Images/baar.png" alt="" srcset=""></a></li>
 
         </ul>
@@ -49,22 +49,35 @@
     <li><a href="#">STUDENT SECTION</a></li>
   </ul>
 </div> -->
-
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="color: white;">&times;</a>
+  <a href=""><h2 style="font-size: 19px;font-family: sans-serif;color: white;">ALIGARAIN'S VISIONARY CLASSES</h2></a>
+  <a href="#back">Home</a>
+  <a href="#about">About</a>
+  <a href="#links">Contact Us</a>
+  <a  onclick="openCourseTemplate()">Courses</a>
+  <a href="#">Student_Section</a>
+</div>
+<div id="main">
+        
+  <span style="color: black;font-size:30px;cursor:pointer;margin-right: 30px;" onclick="openNav()">&#9776; </span>
+</div>
     </nav>
 
-    <div class="back">
+    <div class="back" id="back">
      <h1>Empowering Students to Achieve <br>Excellence</h1>
          <h4>Discover a world of academic excellence and personal growth at Aligarian's Visionary Classes.
 
          </h4>
-         <button class="btn">EXPLORE COURSES</button>
+         <button class="btn" onclick="openNewTab()"">EXPLORE COURSES</button>
 
     </div>
-    <div class="registration"><pre>Registration   starting   from  1 JAN  to  10 JAN</pre></div>
+    <div class="registration"><pre>Registration   starting   from  1 JAN  to  10 JAN.  Batch Starting from 15 JAN.</pre></div>
+    
     <div class="about"id="about">
       <div class="pic_sec"></div>
       <div class="write">
-        <h2><a href="#" >About Us</a></h2
+        <h2><a href="#" >About Us</a></h2>
         <p>
          
 Welcome to <span>Aligarian's Visionary Classes</span>, where education meets excellence! Our institution is proud to house a team of well-qualified, experienced, and dedicated faculty committed to fostering academic brilliance and personality development. Our mission extends beyond textbooks, aiming to cultivate well-rounded individuals with strong communication skills. We are passionate about empowering students with proficiency in English and creating an inclusive environment where everyone can thrive academically. Join us at <span>Aligarian's Visionary Classes</span> for a transformative educational experience that nurtures both academic achievement and personal growth.
@@ -132,87 +145,77 @@ Welcome to <span>Aligarian's Visionary Classes</span>, where education meets exc
     </div>
     <div class="features-container">
       <div class="feature-container-text-text">
-          <div class="features-container-text">
-              <div class="feature-text">FEATURES</div>
+        <div class="features-container-text">
+          <div class="feature-text">FEATURES</div>
+        </div>
+        <div class="features-container-text">
+          <div class="feature-unlock-text">
+            Unlock Your Potential with Professional Coaching
           </div>
-          <div class="features-container-text">
-              <div class="feature-unlock-text">
-                  Unlock Your Potential with Professional Coaching
-              </div>
+        </div>
+        <div class="features-container-text">
+          <div class="feature-discover-text">
+            Discover the benefits of our coaching for school students
           </div>
-          <div class="features-container-text">
-              <div class="feature-discover-text">
-                  Discover the benefits of our coaching for school students
-              </div>
-          </div>
+        </div>
       </div>
-  
-      
+
       <div class="feature-container-cont">
-          <div class="feature-box1">
-              <svg viewBox="0 0 1024 1024" class="feature-card-icon">
-                  <path
-                    d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
-                  ></path>
-                </svg>
-                <div class="feature-box-text">
-                  <div class="text1">
-                      Personalized Coaching
-  
-                  </div>
-                  <div class="text2">
-                      Our Motive is to Achieve Academic Excellence
-                  </div>
-                </div>
+        <div class="feature-box1 box-feature">
+          <svg viewBox="0 0 1024 1024" class="feature-card-icon">
+            <path
+              d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
+            ></path>
+          </svg>
+          <div class="feature-box-text">
+            <div class="text1">Personalized Coaching</div>
+            <div class="text2">
+              Our Motive is to Achieve Academic Excellence
+            </div>
           </div>
-          <div class="feature-box2">
-              <svg viewBox="0 0 1024 1024" class="feature-card-icon">
-                  <path
-                    d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
-                  ></path>
-                </svg>
-                <div class="feature-box-text">
-                  <div class="text1">
-                      Expert Coaches
-  
-                  </div>
-                  <div class="text2">
-                      Mtech (AMU) Well Qualified, Experienced and Dedicated Faculty.
-                  </div>
-                </div>
+        </div>
+        <div class="feature-box2 box-feature">
+          <svg viewBox="0 0 1024 1024" class="feature-card-icon">
+            <path
+              d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
+            ></path>
+          </svg>
+          <div class="feature-box-text">
+            <div class="text1">Expert Coaches</div>
+            <div class="text2">
+              Mtech (AMU) Well Qualified, Experienced and Dedicated Faculty.
+            </div>
           </div>
-          <div class="feature-box3">
-              <svg viewBox="0 0 1024 1024" class="feature-card-icon">
-                  <path
-                    d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
-                  ></path>
-                </svg>
-                <div class="feature-box-text">
-                  <div class="text1">
-                      Good Communication
-                  </div>
-                  <div class="text2">
-                      Best Guidance To Develop English Speaking and Communication Skills
-                  </div>
-                </div>
+        </div>
+        <div class="feature-box3 box-feature">
+          <svg viewBox="0 0 1024 1024" class="feature-card-icon">
+            <path
+              d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
+            ></path>
+          </svg>
+          <div class="feature-box-text">
+            <div class="text1">Good Communication</div>
+            <div class="text2">
+              Best Guidance To Develop English Speaking and Communication Skills
+            </div>
           </div>
-          <div class="feature-box4">
-              <svg viewBox="0 0 1024 1024" class="feature-card-icon">
-                  <path
-                    d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
-                  ></path>
-                </svg>
-                <div class="feature-box-text">
-                  <div class="text1">
-                  Exam Oriented Preparation     
-                  </div>
-                  <div class="text2">
-                     Regular Assesment, Weekly Test Series, Dubt Clearing Sessions, Best Study Material, PYQs Practice Sessions
-                  </div>
-                </div>
+        </div>
+        <div class="feature-box4 box-feature">
+          <svg viewBox="0 0 1024 1024" class="feature-card-icon">
+            <path
+              d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
+            ></path>
+          </svg>
+          <div class="feature-box-text">
+            <div class="text1">Exam Oriented Preparation</div>
+            <div class="text2">
+              Regular Assesment, Doubt Clearing Sessions,
+              Best Study Material, PYQs Practice Sessions
+            </div>
           </div>
+        </div>
       </div>
-  </div>
+    </div>
 
   
     <div class="faculty">
@@ -227,9 +230,9 @@ Welcome to <span>Aligarian's Visionary Classes</span>, where education meets exc
       </div>
       <div class="home-faculty">
       
-        <div id="director">
+        <div id="director" class="card">
           <div>
-            <div class="image-container">
+            <div class="image-container ">
               <img src="./Images/fac-1.jpg" alt="fac-1" class="card-image" />
             </div>
             <div class="desc">
@@ -251,7 +254,7 @@ Welcome to <span>Aligarian's Visionary Classes</span>, where education meets exc
   
         <div class="card">
           <div class="image-container">
-            <img src="./Images/fac-2.jpg" alt="fac-2" class="card-image" />
+            <img src="./Images/fac-3.jpg" alt="fac-2" class="card-image" />
           </div>
           <div class="desc">
             <div class="namediv">
@@ -283,7 +286,7 @@ Welcome to <span>Aligarian's Visionary Classes</span>, where education meets exc
 
         <div class="card">
           <div class="image-container">
-            <img src="./Images/fac-3.jpg" alt="fac-4" class="card-image" />
+            <img src="./Images/fac-2.jpg" alt="fac-4" class="card-image" />
           </div>
           <div class="desc">
             <div class="namediv">
